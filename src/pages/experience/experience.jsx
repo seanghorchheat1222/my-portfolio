@@ -1,4 +1,3 @@
-import styles from './experience.module.css'
 import img1 from '../../assets/images/testonpostman.png';
 import img2 from '../../assets/images/turntoapi.png';
 import img3 from '../../assets/images/patient_crud.png';

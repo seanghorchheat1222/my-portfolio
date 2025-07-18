@@ -144,8 +144,8 @@ And this project i still continue developing.</p>
 </div>
 
 <div className="mt-5">
-<h3>Validate Form</h3>
-<p style={{ color: '#555555' }}>In this project is my first project that i was trying to working on a Validate form using Angular Framework, Typescript</p>
+<h3>Validation Form</h3>
+<p style={{ color: '#555555' }}>In this project is my first project that i was trying to working on a Validation Form using Angular Framework, Typescript</p>
 <a href="https://github.com/horspaz064/Form-Validation" target='_blank'>Form-Validation</a>
 <div>
 <img width="100%" src={img17}></img>

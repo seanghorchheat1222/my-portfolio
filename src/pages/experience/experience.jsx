@@ -33,6 +33,7 @@ const Experience = () =>
 <ul>
   <li style={{ color: '#555555' }}>to lean and know more about React structure and cores</li>
   <li style={{ color: '#555555' }}>a methods that React provide</li>
+  <li style={{ color: '#555555' }}>working with EmailJS</li>
   <li style={{ color: '#555555' }}>responsive, a little animation, ui</li>
 </ul>
 <p style={{ color: '#555555' }}>here is my portfolio ui on Figma: <a href="https://www.figma.com/design/IlQHbL66JkSuq2m3dVQw0u/My--Portfolio?t=al685EipNMb3CEpA-1" target='_blank'>https://www.figma.com/design/My-Portfolio</a></p>

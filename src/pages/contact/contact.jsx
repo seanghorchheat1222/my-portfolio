@@ -73,7 +73,7 @@ const Contact = () => {
                 </button>
                    <button
                   style={{ float: 'right'}}
-                  type="submit" className={styles.btnCancle}>
+                className={styles.btnCancle}>
                   Cancle
                 </button>
               </div>

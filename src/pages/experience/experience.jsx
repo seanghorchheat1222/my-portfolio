@@ -29,7 +29,7 @@ const Experience = () =>
 
 <div>
 <h3>My-Portfolio</h3>
-<p style={{ color: '#555555' }}>This is my portfolio i used to build on React Framework, and i still have more idea to add in this project. In this project i was working to focus on : </p>
+<p style={{ color: '#555555' }}>This is my portfolio i used to build on React Framework. In this project i was working to focus on : </p>
 <ul>
   <li style={{ color: '#555555' }}>to lean and know more about React structure and cores</li>
   <li style={{ color: '#555555' }}>a methods that React provide</li>
@@ -179,16 +179,16 @@ And this project i still continue developing.</p>
 </div>
 
 <div className="mt-5">
-<h3 style={{ color: '#555555' }}>Patient_management with lavavel</h3>
-<p>This one just a small crud project from school with lavavel(connect with xampp)</p>
+<h3 >Patient_management with lavavel</h3>
+<p style={{ color: '#555555' }}>This one just a small crud project from school with lavavel(connect with xampp)</p>
 <div>
 <img width="100%" src={img22}></img>
 </div>
 </div>
 
 <div className="mt-5">
-<h3 style={{ color: '#555555' }}>ecommerceuiapp</h3>
-<p>This one was a small mobile app project that i was build and taking some concept from the team app during i was at training at Simpaz Group and watching/researching on youtube</p>
+<h3 >ecommerceuiapp</h3>
+<p style={{ color: '#555555' }}>This one was a small mobile app project that i was build and taking some concept from the team app during i was at training at Simpaz Group and watching/researching on youtube</p>
 <div>
 <img width="100%" src={img23}></img>
 </div>

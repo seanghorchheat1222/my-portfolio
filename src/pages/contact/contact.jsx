@@ -69,7 +69,7 @@ const Contact = () => {
                 <button
                   style={{ float: 'right'}}
                   className={styles.btnSubmit}>
-                  Submit
+                  Send
                 </button>
               </div>
             </form>

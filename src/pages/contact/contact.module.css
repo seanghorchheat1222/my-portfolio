@@ -11,16 +11,8 @@
   width: 100px !important; 
   height: 30px !important; 
   border-radius: 5px !important; 
-  font-weight: bold !important
-}
-
-.btnCancle{
-  color: #4AA2D9 !important;
-  border: none !important; 
-  width: 100px !important; 
-  height: 30px !important; 
-  border-radius: 5px !important; 
-  font-weight: bold !important
+  font-weight: bold !important;
+  background-color: white;
 }
 
 

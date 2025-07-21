@@ -17,11 +17,7 @@
 /* Optional: override or adjust styles on small screens */
 @media (max-width: 767px) {
   .btnSubmit {
-    font-size: 14px;
-    float: none !important;
-    margin: 0 auto;
-    display: block;
-     color: #4AA2D9 !important;
+  color: #4AA2D9 !important;
   border: none !important; 
   width: 100px !important; 
   height: 30px !important; 

@@ -46,7 +46,7 @@ const Contact = () => {
     <div className="container">
       <div className="row">
         <div className="col-lg-6 col-md-6">
-          <h1 style={{color: '#8DD5F2'}}>Hi, How are you bro!</h1>
+          <h1 style={{color: '#8DD5F2'}}>Hi, How are you!</h1>
           <div className="mt-5">
             <form
               ref={form}

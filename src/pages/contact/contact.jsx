@@ -46,7 +46,7 @@ const Contact = () => {
 <div>
 <div style={{ position: 'relative' }}>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"   
-  preserveAspectRatio="none"
+preserveAspectRatio="none"
 style={{
       position: 'absolute',
       top: 0,
@@ -60,7 +60,7 @@ style={{
   <div className="container" style={{ position: 'relative', zIndex: 1 }}>
       <div className="row">
         <div className="col-lg-6 col-md-12">
-          <h1 style={{color: 'white'}}>Hi, How are you!</h1>
+          <h1 style={{color: 'white'}}>Hi, how are you?</h1>
           <div className="mt-5">
             <form
               ref={form}

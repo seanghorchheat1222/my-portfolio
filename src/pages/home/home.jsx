@@ -29,7 +29,7 @@ const Home = () =>
 
           <div className={`${styles.coreskill} col-lg-6 col-md-6 col-sm-12`}>
             <div style={{gap: '20px'}} className={`d-flex align-items-center ${styles.coreandskill}`}>
-              <i style={{ color: 'white' }} className="bi bi-display-fill fs-1 mb-3"></i>
+              <i style={{ color: 'white', fontSize : '40px'}} className={`bi bi-display-fill mb-3 ${styles.icons}`}></i>
               <h3 style={{ color: 'white' }} className={styles.textcontext}>Core/Basic skills</h3>
             </div>
             <div className="d-flex flex-column gap-2 col-lg-10 col-md-12 col-12">
@@ -41,7 +41,7 @@ const Home = () =>
 
           <div className={`${styles.databasemanagement} col-lg-6 col-md-6 col-sm-12 d-flex flex-column align-items-center`}>
             <div className={`${styles.databaseandmanagement}`}>
-              <i style={{ color: 'white' }} className="bi bi-database-fill fs-1 mb-3"></i>
+              <i style={{ color: 'white', fontSize : '40px' }} className="bi bi-database-fill mb-3"></i>
               <h3 style={{ color: 'white' }} className={styles.textcontext} >Database & Management</h3>
             </div>
             <div className="d-flex flex-column gap-2 col-lg-10 col-md-12 col-sm-12 col-12">
@@ -52,7 +52,7 @@ const Home = () =>
 
           <div className={`${styles.frameworklibraries} col-lg-6 col-md-6 col-sm-12 `}>
             <div style={{gap: '20px'}} className={`d-flex align-items-center ${styles.frameworkandlibraries}`} >
-              <i style={{ color: 'white' }} className="bi bi-gear-fill fs-1 mb-3"></i>
+              <i style={{ color: 'white',fontSize : '40px' }} className="bi bi-gear-fill mb-3"></i>
               <h3 style={{ color: 'white' }} className={styles.textcontext} >Framework & Libraries</h3>
             </div>
             <div className="d-flex flex-column gap-2 col-lg-10 col-md-12 col-12">
@@ -65,7 +65,7 @@ const Home = () =>
 
           <div className={`${styles.tooldevops} col-lg-6 col-md-6 col-sm-12 d-flex flex-column align-items-center`}>
             <div className={styles.toolandevops}>
-              <i style={{ color: 'white' }} className="bi bi-tools fs-1 mb-3"></i>
+              <i style={{ color: 'white', fontSize : '40px' }} className="bi bi-tools mb-3"></i>
               <h3 style={{ color: 'white' }} className={styles.textcontext} >Tools & Devops</h3>
             </div>
             <div className="d-flex flex-column gap-2 col-lg-10 col-md-12 col-sm-12 col-12">
@@ -75,7 +75,7 @@ const Home = () =>
 
           <div className={`${styles.backendtechnologies} col-lg-6 col-md-6 col-sm-12 `}>
             <div style={{gap: '20px'}} className={`${styles.backendandtechnologies} d-flex align-items-center`}>
-              <i style={{ color: 'white' }} className="bi bi-clouds-fill fs-1 mb-3"></i>
+              <i style={{ color: 'white', fontSize : '40px' }} className="bi bi-clouds-fill mb-3"></i>
               <h3 style={{ color: 'white' }} className={styles.textcontext} >Backend Technologies</h3>
             </div>
             <div className="d-flex flex-column gap-2 col-lg-10 col-md-12 col-12">

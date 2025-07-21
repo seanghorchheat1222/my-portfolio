@@ -77,7 +77,7 @@ padding-top: 20px
 }
 
 .databasemanagement{
-  margin-top: 50px !important
+  margin-top: 30px !important
 }
 
 .databaseandmanagement{
@@ -88,7 +88,7 @@ padding-top: 20px
 }
 
 .frameworklibraries{
-  margin-top: 50px !important
+  margin-top: 30px !important
 }
 
 .frameworkandlibraries{
@@ -99,7 +99,7 @@ padding-top: 20px
 }
 
 .tooldevops{
-  margin-top: 50px !important
+  margin-top: 30px !important
 }
 
 .toolandevops{
@@ -110,7 +110,7 @@ padding-top: 20px
 }
 
 .backendtechnologies{
- margin-top: 50px !important
+ margin-top: 30px !important
 }
 
 .backendandtechnologies{
@@ -137,6 +137,14 @@ padding-top: 20px
 
 .backendtechnologies{
  margin-top: 25px !important
+}
+
+}
+
+@media screen and (min-width: 767.5px){
+
+.backendtechnologies{
+ margin-bottom: 24px !important
 }
 
 }

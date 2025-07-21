@@ -73,7 +73,7 @@ const Home = () =>
             </div>
           </div>
 
-          <div className={`${styles.backendtechnologies} col-lg-6 col-md-6 col-sm-12 `} style={{marginBottom: '24px'}}>
+          <div className={`${styles.backendtechnologies} col-lg-6 col-md-6 col-sm-12 `}>
             <div style={{gap: '20px'}} className={`${styles.backendandtechnologies} d-flex align-items-center`}>
               <i style={{ color: 'white' }} className="bi bi-clouds-fill fs-1 mb-3"></i>
               <h3 style={{ color: 'white' }} className={styles.textcontext} >Backend Technologies</h3>

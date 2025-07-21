@@ -45,12 +45,14 @@ const Contact = () => {
   return (
 <div>
 <div style={{ position: 'relative' }}>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"   style={{
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"   
+  preserveAspectRatio="none"
+style={{
       position: 'absolute',
       top: 0,
       left: 0,
       width: '100%',
-      height: 'auto',
+      height: '600px',
       zIndex: 0, // push behind
     }}><path fill="#8DD5F2" fill-opacity="1" d="M0,256L1440,160L1440,0L0,0Z"></path></svg>
   </div>

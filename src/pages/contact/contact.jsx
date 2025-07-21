@@ -52,8 +52,8 @@ style={{
       top: 0,
       left: 0,
       width: '100%',
-      height: '600px',
-      zIndex: 0, // push behind
+      height: '550px',
+      zIndex: 0, 
     }}><path fill="#8DD5F2" fill-opacity="1" d="M0,256L1440,160L1440,0L0,0Z"></path></svg>
   </div>
 

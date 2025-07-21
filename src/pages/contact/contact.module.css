@@ -5,8 +5,14 @@
   border-radius: 5px
 }
 
-
-
+.btnSubmit{
+  color: #4AA2D9 !important;
+  border: none !important; 
+  width: 100px !important; 
+  height: 30px !important; 
+  border-radius: 5px !important; 
+  font-weight: bold !important
+}
 
 @media screen and (max-width: 767.5px){
 .img1{

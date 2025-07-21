@@ -43,10 +43,22 @@ const Contact = () => {
   };
 
   return (
-    <div className="container">
+<div>
+<div style={{ position: 'relative' }}>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"   style={{
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: 'auto',
+      zIndex: 0, // push behind
+    }}><path fill="#8DD5F2" fill-opacity="1" d="M0,256L1440,160L1440,0L0,0Z"></path></svg>
+  </div>
+
+  <div className="container" style={{ position: 'relative', zIndex: 1 }}>
       <div className="row">
         <div className="col-lg-6 col-md-6">
-          <h1 style={{color: '#8DD5F2'}}>Hi, How are you!</h1>
+          <h1 style={{color: 'white'}}>Hi, How are you!</h1>
           <div className="mt-5">
             <form
               ref={form}
@@ -77,7 +89,7 @@ const Contact = () => {
         </div>
 
         <div className="col-lg-6 col-md-6">
-          <h1 className={styles.currenttime} style={{ textAlign: 'center', fontSize: '50px', fontWeight: 'bold', color: '#8DD5F2' }}>
+          <h1 className={styles.currenttime} style={{ textAlign: 'center', fontSize: '50px', fontWeight: 'bold', color: 'white' }}>
             {currentTime}
           </h1>
           <div className="d-flex align-items-center justify-content-center">
@@ -98,6 +110,12 @@ const Contact = () => {
         <p>Copyright ©️2025</p>
       </div>
     </div>
+
+</div>
+
+
+
+  
   );
 };
 

@@ -66,6 +66,22 @@
 
 }
 
+@media screen and (max-width: 767.5px) and (min-width: 630.5px){
+  .hammenu{
+    position: absolute;
+    left: 43px;
+
+  }
+}
+
+@media screen and (max-width: 630px) and (min-width: 425px){
+  .hammenu{
+    position: absolute;
+    left: 23px;
+  }
+}
+
+
 .offscreenmenu{
   background-color: white;
   height:100vh;

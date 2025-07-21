@@ -57,7 +57,7 @@ const Contact = () => {
 
   <div className="container" style={{ position: 'relative', zIndex: 1 }}>
       <div className="row">
-        <div className="col-lg-6 col-md-6">
+        <div className="col-lg-6 col-md-12">
           <h1 style={{color: 'white'}}>Hi, How are you!</h1>
           <div className="mt-5">
             <form
@@ -88,7 +88,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="col-lg-6 col-md-6">
+        <div className="col-lg-6 col-md-12">
           <h1 className={styles.currenttime} style={{ textAlign: 'center', fontSize: '50px', fontWeight: 'bold', color: 'white' }}>
             {currentTime}
           </h1>

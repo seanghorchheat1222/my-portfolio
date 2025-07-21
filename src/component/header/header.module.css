@@ -1,90 +1,91 @@
-.nav{
+.nav {
   padding: 0;
   margin: 0;
   width: 100%;
   /* background-color: #8DD5F2; */
   height: 50px;
   display: flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
   align-items: center;
   position: 'relative';
   z-index: 1
 }
-.ul{
+
+.ul {
   display: flex;
   flex-direction: row;
-  justify-content:flex-end;
+  justify-content: flex-end;
   list-style: none;
-  gap:60px;
+  gap: 60px;
   margin-right: 20px;
   margin-top: 10px
 }
 
-.text{
+.text {
   color: #000000;
   font-size: 20px;
   font-weight: bolder;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-decoration:none
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none
 }
 
-.active{
+.active {
   color: #000000;
   font-size: 20px;
   font-weight: bolder;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media screen and (max-width : 767.5px){
-  .nav{
-   display: none;
-  }
-  
-  .hammenu{
-  display: block;
-  position: 'relative';
-  z-index: 2
+@media screen and (max-width : 767.5px) {
+  .nav {
+    display: none;
   }
 
-  .menubackground{
-   width: 100%;
-   height: 50px;
-   /* background-color: #8DD5F2; */
-   display: block;
- }
-
-}
-
-@media screen and (min-width : 767.5px){
-  .hammenu{
-   display: none;
+  .hammenu {
+    display: block;
+    position: 'relative';
+    z-index: 2
   }
 
-  .menubackground{
-  display: none;
+  .menubackground {
+    width: 100%;
+    height: 50px;
+    /* background-color: #8DD5F2; */
+    display: block;
   }
 
 }
 
-@media screen and (max-width: 767.5px) and (min-width: 630.5px){
-  .hammenu{
+@media screen and (min-width : 767.5px) {
+  .hammenu {
+    display: none;
+  }
+
+  .menubackground {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 767.5px) and (min-width: 630.5px) {
+  .hammenu {
     position: absolute;
     left: 43px;
 
   }
 }
 
-@media screen and (max-width: 630px) and (min-width: 425px){
-  .hammenu{
+@media screen and (max-width: 630px) and (min-width: 425px) {
+  .hammenu {
     position: absolute;
     left: 23px;
   }
 }
 
 
-.offscreenmenu{
+.offscreenmenu {
   background-color: white;
-  height:100vh;
+  height: 100vh;
   width: 100%;
   max-width: 540px;
   position: fixed;
@@ -101,18 +102,18 @@
   z-index: 2
 }
 
-.offscreenmenu.active{
+.offscreenmenu.active {
   right: 0;
 }
 
 
 
-.hammenu{
+.hammenu {
   height: 35px;
   width: 35px;
   margin-left: 87%;
   position: relative;
-  
+
 }
 
 .hammenu span {
@@ -128,23 +129,23 @@
 }
 
 .hammenu span:nth-child(1) {
- top: 25%
+  top: 25%
 }
 
 .hammenu span:nth-child(3) {
- top: 76%
+  top: 76%
 }
 
-.hammenu.active span:nth-child(1){
+.hammenu.active span:nth-child(1) {
   top: 55%;
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
-.hammenu.active span:nth-child(2){
+.hammenu.active span:nth-child(2) {
   opacity: 0;
 }
 
-.hammenu.active span:nth-child(3){
+.hammenu.active span:nth-child(3) {
   top: 41%;
   transform: translate(-50%, 50%) rotate(-45deg);
 }

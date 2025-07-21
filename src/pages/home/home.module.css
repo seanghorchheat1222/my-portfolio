@@ -60,10 +60,133 @@ padding-top: 20px
  margin: 0
 }
 
+@media screen and (max-width: 767.5px){
+
+.textcontext{
+  margin-top: -10px !important
+}
+
+.coreskill{
+   margin-top: 30px !important
+}
+
+.coreandskill{
+  justify-content: center;
+  flex-direction: column;
+  gap: 0px !important
+}
+
+.databasemanagement{
+  margin-top: 50px !important
+}
+
+.databaseandmanagement{
+  justify-content: center;
+  flex-direction: column;
+  gap: 0px !important;
+  margin-right: 0px !important;
+}
+
+.frameworklibraries{
+  margin-top: 50px !important
+}
+
+.frameworkandlibraries{
+  justify-content: center;
+  flex-direction: column;
+  gap: 0px !important;
+  margin-right: 0px !important;
+}
+
+.tooldevops{
+  margin-top: 50px !important
+}
+
+.toolandevops{
+  justify-content: center;
+  flex-direction: column;
+  gap: 0px !important;
+  margin-right: 0px !important;
+}
+
+.backendtechnologies{
+ margin-top: 50px !important
+}
+
+.backendandtechnologies{
+  justify-content: center;
+  flex-direction: column;
+  gap: 0px !important;
+  margin-right: 0px !important;
+}
+}
+
+
+@media screen and (min-width: 768px){
+
+
+.frameworklibraries{
+  margin-top: 25px !important
+}
+
+
+.tooldevops{
+  margin-top: 25px !important
+}
+
+
+.backendtechnologies{
+ margin-top: 25px !important
+}
+
+}
+
+
+@media screen and (max-width: 767.5px){
+.skillswrapper{
+  display: flex;
+  flex-direction: column
+}
+
+.coreskill{
+order: 1
+}
+
+.databasemanagement{
+order: 4
+}
+
+.frameworklibraries{
+order: 2
+}
+
+
+.tooldevops{
+order: 5;
+margin-bottom: 24px
+}
+
+.backendtechnologies{
+ order: 3
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 991.5px) and (min-width:767.5px){
+ .textcontext{
+  font-size: 20px !important;
+ }
+}
+
 .databaseandmanagement{
   margin-right: 165px;
   display: flex;
-  gap: 8px;
+  gap: 16px;
   align-items: center;
 }
 
@@ -71,7 +194,7 @@ padding-top: 20px
 .toolandevops{
   margin-right: 280px;
   display: flex;
-  gap: 8px;
+  gap: 16px;
   align-items: center;
 }
 
@@ -116,7 +239,7 @@ transform: scale(1.05);
   .databaseandmanagement{
   margin-right: 95px;
   display: flex;
-  gap: 8px;
+  gap: 16px;
   align-items: center;
 }
 
@@ -124,7 +247,7 @@ transform: scale(1.05);
 .toolandevops{
   margin-right: 210px;
   display: flex;
-  gap: 8px;
+  gap: 16px;
   align-items: center;
 }
 }
@@ -133,7 +256,7 @@ transform: scale(1.05);
   .databaseandmanagement{
   margin-right: 15px;
   display: flex;
-  gap: 8px;
+  gap: 16px;
   align-items: center;
 }
 
@@ -141,7 +264,7 @@ transform: scale(1.05);
 .toolandevops{
   margin-right: 130px;
   display: flex;
-  gap: 8px;
+  gap: 16px;
   align-items: center;
 }
 }
@@ -149,56 +272,22 @@ transform: scale(1.05);
 
 @media (max-width:991.5px) and (min-width: 768px){
   .databaseandmanagement{
-  margin-right: 90px;
+  margin-right: 50px;
   display: flex;
-  gap: 8px;
+  gap: 16px;
   align-items: center;
 }
 
 
 .toolandevops{
-  margin-right: 130px;
+  margin-right: 142px;
   display: flex;
-  gap: 8px;
+  gap: 16px;
   align-items: center;
 }
 }
 
-@media (max-width:500.5px) {
-  .databaseandmanagement{
-  margin-right: 180px;
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
 
-
-.toolandevops{
-  margin-right: 270px;
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-}
-
-@media (max-width:500.5px) {
-  .databaseandmanagement{
-  width: 100%; 
-  margin-right: 0px;
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-
-
-.toolandevops{
-  width: 100%; 
-  margin-right: 0px;
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-}
 
 @media (max-width:1399.5px) and (min-width:1200px) {
 

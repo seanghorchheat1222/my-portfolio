@@ -1,11 +1,11 @@
 import styles from './contact.module.css';
 import img1 from '../../assets/images/contactimage.png';
 import { useState, useEffect, useRef } from 'react';
-import emailjs from 'emailjs-com'; // ✅ Import EmailJS
+import emailjs from 'emailjs-com'; 
 
 const Contact = () => {
   const [currentTime, setCurrentTime] = useState('');
-  const form = useRef(); // ✅ Create form ref
+  const form = useRef(); 
 
   useEffect(() => {
     const updateTime = () => {
@@ -26,18 +26,18 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_5xvk7t7',    // 🔁 Replace with your actual Service ID
-      'template_hgfk9wh',    // 🔁 Replace with your actual Template ID
+      'service_5xvk7t7',    
+      'template_hgfk9wh',   
       form.current,
-      'g3gMZuLpaJCyW5AAc'   // 🔁 Replace with your actual Public Key
+      'g3gMZuLpaJCyW5AAc'   
     )
     .then((result) => {
-        alert('Message sent successfully! ✅');
+        alert('Message sent successfully!');
         console.log(result.text);
-        form.current.reset(); // Optional: clear form after submission
+        form.current.reset(); 
     })
     .catch((error) => {
-        alert('Failed to send message ❌');
+        alert('Failed to send message');
         console.log(error.text);
     });
   };

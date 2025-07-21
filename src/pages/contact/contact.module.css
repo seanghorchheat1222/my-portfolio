@@ -1,27 +1,28 @@
-.formcontact {
+.formcontact{
   background-color: #4AA2D9;
   width: 100%;
   height: 100;
   border-radius: 5px
 }
 
-.btnSubmit {
+.btnSubmit{
   color: #4AA2D9;
-  border: none;
-  width: 100px;
-  height: 30px;
-  border-radius: 5px;
-  font-weight: bold;
+  border: none ; 
+  width: 100px; 
+  height: 30px ; 
+  border-radius: 5px ; 
+  font-weight: bold ;
   background-color: white;
 }
 
 
-@media screen and (max-width: 991.5px) {
-  .img1 {
-    display: none
-  }
-
-  .currenttime {
-    display: none
-  }
+@media screen and (max-width: 991.5px){
+.img1{
+  display: none
 }
+
+.currenttime{
+  display: none
+}
+}
+

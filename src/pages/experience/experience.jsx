@@ -39,7 +39,7 @@ const Experience = () =>
 </ul>
 <p style={{ color: '#555555' }}>here is my portfolio ui on Figma: <a href="https://www.figma.com/design/IlQHbL66JkSuq2m3dVQw0u/My--Portfolio?t=al685EipNMb3CEpA-1" target='_blank'>https://www.figma.com/design/My-Portfolio</a></p>
 
-<video  width="100%" loop autoPlay muted >
+<video  width="100%" loop autoPlay muted playsinline >
   <source src="/videos/myportfolio.mp4" type="video/mp4" />
 </video>
 </div>
@@ -77,7 +77,7 @@ const Experience = () =>
 <p style={{ color: '#555555' }}>This one was very static Website that was a small school project and this project i focus on how to Hosting Website to Browser(GitHub) by using HTML and CSS but it not responsive yet.</p>
 
 <p style={{ color: '#555555' }}>Here my first hosting website <a href="https://horspaz064.github.io/Plantation-Urban-Resort-Spa/hotel.html">Plantation-Urban-Resort-Spa</a></p>
-<video  width="100%" loop autoPlay muted >
+<video  width="100%" loop autoPlay muted playsinline>
   <source src="/videos/hosting.mp4" type="video/mp4" />
 </video>
 </div>
@@ -85,7 +85,7 @@ const Experience = () =>
 <div className="mt-5">
 <h3>Todo_app with api</h3>
 <p style={{ color: '#555555' }}>This project i was working on Angular Framework to build a small a todo list web application with API</p>
-<video  width="100%" loop autoPlay muted >
+<video  width="100%" loop autoPlay muted playsinline>
   <source src="/videos/todo.mp4" type="video/mp4" />
 </video>
 <div>

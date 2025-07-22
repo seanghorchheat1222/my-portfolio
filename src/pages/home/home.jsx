@@ -79,6 +79,7 @@ const Home = () =>
               <h3 style={{ color: 'white' }} className={styles.textcontext} >Backend Technologies</h3>
             </div>
             <div className="d-flex flex-column gap-2 col-lg-10 col-md-12 col-12">
+              <div className={styles.boxskill}><p style={{ color: '#555555' }}>PHP</p></div>
               <div className={styles.boxskill}><p style={{ color: '#555555' }}>C#</p></div>
             </div>
           </div>

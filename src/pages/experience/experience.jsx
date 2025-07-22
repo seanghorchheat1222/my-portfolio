@@ -76,7 +76,7 @@ const Experience = () =>
 <h3>Plantation Urban Resort</h3>
 <p style={{ color: '#555555' }}>This one was very static Website that was a small school project and this project i focus on how to Hosting Website to Browser(GitHub) by using HTML and CSS but it not responsive yet.</p>
 
-<p style={{ color: '#555555' }}>Here my first hosting website <a href="https://horspaz064.github.io/Plantation-Urban-Resort-Spa/hotel.html">Plantation-Urban-Resort-Spa</a></p>
+<p style={{ color: '#555555' }}>Here my first hosting website <a href="https://horspaz064.github.io/Plantation-Urban-Resort-Spa/hotel.html" target='_blank'>Plantation-Urban-Resort-Spa</a></p>
 <video  width="100%" loop autoPlay muted playsinline>
   <source src="/videos/hosting.mp4" type="video/mp4" />
 </video>

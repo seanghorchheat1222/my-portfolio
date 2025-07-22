@@ -130,7 +130,7 @@ const Home = () =>
           </a>
         </div>
       </div>
-      <div><p>Copyright ©️2025</p></div>
+      <div><p className="fs-6">Copyright ©️2025</p></div>
     </div>
 
   </div>

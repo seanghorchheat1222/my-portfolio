@@ -109,7 +109,7 @@ style={{
             <i className="bi bi-telegram fs-1"></i>
           </a>
         </div>
-        <p className="fs-6">Copyright ©️2025</p>
+        <p style={{fontSize: '12px'}}>Copyright ©️2025</p>
       </div>
     </div>
 

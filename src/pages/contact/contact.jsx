@@ -73,7 +73,8 @@ style={{
               </div>
               <div className="form-group">
                 <label style={{ color: 'white' }}>Email</label>
-                <input className="form-control" name="user_email" required />
+                <input className="form-control" name="user_email"required   type="email"   
+                />
               </div>
               <div className="form-group">
                 <label style={{ color: 'white' }}>Description</label>

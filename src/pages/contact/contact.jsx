@@ -103,7 +103,7 @@ style={{
 
       <div className="col-12 d-flex justify-content-center align-items-center flex-column mt-3">
         <div className="d-flex gap-2">
-          <a href="https://github.com/horspaz064" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
+          <a href="https://github.com/seanghorchheat" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
             <i className="bi bi-github fs-1"></i>
           </a>
           <a href="https://t.me/chheatseanghor3333" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>

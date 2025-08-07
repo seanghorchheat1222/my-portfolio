@@ -119,7 +119,7 @@ const Home = () =>
     <div className="col-12 d-flex justify-content-center align-items-center flex-column mt-3 ">
       <div className="d-flex gap-2">
         <div>
-          <a href="https://github.com/horspaz064" target='_blank' style={{color: 'black'}}>
+          <a href="https://github.com/seanghorchheat" target='_blank' style={{color: 'black'}}>
            <i className="bi bi-github fs-1"></i>
           </a>
         

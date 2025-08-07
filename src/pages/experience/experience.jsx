@@ -28,6 +28,48 @@ import styles from './experience.module.css';
 const Experience = () => 
 <div className="container">
 <h1 style={{textAlign: 'center', color: '#4AA2D9'}}>My Project</h1>
+
+
+<section id="uxui">
+
+<div className="mt-5">
+<h3>My-Portfolio</h3>
+<p style={{ color: '#555555' }}>This is my portfolio i used to build on React Framework. In this project i was working to focus on : </p>
+<ul style={{display: 'block', listStyle: 'disc'}}>
+  <li style={{ color: '#555555' }}>to lean and know more about React structure and cores</li>
+  <li style={{ color: '#555555' }}>a methods that React provide</li>
+  <li style={{ color: '#555555' }}>working with EmailJS</li>
+  <li style={{ color: '#555555' }}>hosting on real time website using Netlify</li>
+  <li style={{ color: '#555555' }}>responsive, a little animation, ui</li>
+</ul>
+<p style={{ color: '#555555' }}>here is my portfolio ui on Figma: <a href="https://www.figma.com/design/IlQHbL66JkSuq2m3dVQw0u/My--Portfolio?t=al685EipNMb3CEpA-1" target='_blank'>https://www.figma.com/design/My-Portfolio</a></p>
+
+<video  width="100%" loop autoPlay muted playsinline >
+  <source src="/videos/myportfolio.mp4" type="video/mp4" />
+</video>
+</div>
+
+
+<div className="mt-5">
+<h3 >IPhone UI Design</h3>
+<p style={{ color: '#555555'}}>This is my UI Design Project with 3 process
+<ul style={{ display: 'block', listStyle: 'disc'}}>
+  <li>Warframe</li>
+  <li>Design Layout</li>
+  <li>Mockup</li>
+</ul>
+<a href="https://www.figma.com/design/8CfN8fQd32QhBK6OqqWFYn/First-Website-Design?node-id=0-1&t=LTtF6daNvvPtdMMH-1" target='_blank'>https://www.figma.com/design/First-Website-Design</a>
+
+</p>
+<video  width="100%" loop autoPlay muted playsinline>
+  <source src="/videos/iphoneui.mp4" type="video/mp4" />
+</video>
+</div>
+
+</section>
+
+
+
 <section id="website">
 <div className="mt-5">
 <h3>Admin Hospital Project</h3>
@@ -62,6 +104,20 @@ And this project i still continue developing.</p>
 </div>
 
 <div className="mt-5">
+<h3>Todo_app with api</h3>
+<p style={{ color: '#555555' }}>This project i was working on Angular Framework to build a small a todo list web application with API</p>
+<video  width="100%" loop autoPlay muted playsinline>
+  <source src="/videos/todo.mp4" type="video/mp4" />
+</video>
+<div>
+<img width="100%" src={img5}></img>
+</div>
+<div>
+<img width="100%" src={img6}></img>
+</div>
+</div>
+
+<div className="mt-5">
 <h3>Turn Database to API</h3>
 <p style={{ color: '#555555' }}>This is just a small project from school to turn a local database to an API with API key authentication</p>
 <div>
@@ -86,20 +142,6 @@ And this project i still continue developing.</p>
 <p style={{ color: '#555555' }}>In this project i was working on .Net Framework by connect to a local SQL server management</p>
 <div>
 <img width="100%" src={img4}></img>
-</div>
-</div>
-
-<div className="mt-5">
-<h3>Todo_app with api</h3>
-<p style={{ color: '#555555' }}>This project i was working on Angular Framework to build a small a todo list web application with API</p>
-<video  width="100%" loop autoPlay muted playsinline>
-  <source src="/videos/todo.mp4" type="video/mp4" />
-</video>
-<div>
-<img width="100%" src={img5}></img>
-</div>
-<div>
-<img width="100%" src={img6}></img>
 </div>
 </div>
 
@@ -175,43 +217,6 @@ And this project i still continue developing.</p>
 </section>
 
 
-<section id="uxui">
-
-<div className="mt-5">
-<h3>My-Portfolio</h3>
-<p style={{ color: '#555555' }}>This is my portfolio i used to build on React Framework. In this project i was working to focus on : </p>
-<ul style={{display: 'block', listStyle: 'disc'}}>
-  <li style={{ color: '#555555' }}>to lean and know more about React structure and cores</li>
-  <li style={{ color: '#555555' }}>a methods that React provide</li>
-  <li style={{ color: '#555555' }}>working with EmailJS</li>
-  <li style={{ color: '#555555' }}>hosting on real time website using Netlify</li>
-  <li style={{ color: '#555555' }}>responsive, a little animation, ui</li>
-</ul>
-<p style={{ color: '#555555' }}>here is my portfolio ui on Figma: <a href="https://www.figma.com/design/IlQHbL66JkSuq2m3dVQw0u/My--Portfolio?t=al685EipNMb3CEpA-1" target='_blank'>https://www.figma.com/design/My-Portfolio</a></p>
-
-<video  width="100%" loop autoPlay muted playsinline >
-  <source src="/videos/myportfolio.mp4" type="video/mp4" />
-</video>
-</div>
-
-
-<div className="mt-5">
-<h3 >IPhone UI Design</h3>
-<p style={{ color: '#555555'}}>This is my UI Design Project with 3 process
-<ul style={{ display: 'block', listStyle: 'disc'}}>
-  <li>Warframe</li>
-  <li>Design Layout</li>
-  <li>Mockup</li>
-</ul>
-<a href="https://www.figma.com/design/8CfN8fQd32QhBK6OqqWFYn/First-Website-Design?node-id=0-1&t=LTtF6daNvvPtdMMH-1" target='_blank'>https://www.figma.com/design/First-Website-Design</a>
-
-</p>
-<video  width="100%" loop autoPlay muted playsinline>
-  <source src="/videos/iphoneui.mp4" type="video/mp4" />
-</video>
-</div>
-
-</section>
 
 
 <seciton id="mobile">

@@ -187,6 +187,22 @@ And this project i still continue developing.</p>
 </div>
 
 <div className="mt-5">
+<h3 >IPhone UI Design</h3>
+<p style={{ color: '#555555' }}>This is my UI Design Project with 3 process
+<ul>
+  <li>warframe</li>
+  <li>Design Layout</li>
+  <li>Mockup</li>
+</ul>
+<a href="https://www.figma.com/design/8CfN8fQd32QhBK6OqqWFYn/First-Website-Design?node-id=0-1&t=LTtF6daNvvPtdMMH-1">https://www.figma.com/design/First-Website-Design</a>
+
+</p>
+<video  width="100%" loop autoPlay muted playsinline>
+  <source src="/videos/iphoneui.mp4" type="video/mp4" />
+</video>
+</div>
+
+<div className="mt-5">
 <h3 >ecommerceuiapp</h3>
 <p style={{ color: '#555555' }}>This one was a small mobile app project that i was build and taking some concept from the team app during i was at training at Simpaz Group and watching/researching on youtube</p>
 <div>

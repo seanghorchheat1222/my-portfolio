@@ -7,7 +7,7 @@ const Home = () =>
     <div className="container">
       <div className={`row ${styles.reversposition}`}>
         <div className={`col-lg-6 col-md-6 col-sm-12 mt-5 ${styles.contextprofile}`}>
-          <h1 style={{ fontWeight: '500',color: 'red'}}>Hi, I'm Seanghor, <span style={{color: '#4AA2D9'}}>Web Developer</span></h1>
+          <h1 style={{ fontWeight: '500'}}>Hi, I'm Seanghor, <span style={{color: '#4AA2D9'}}>Web Developer</span></h1>
           <p><span style={{ color: '#555555' }}>I am a fourth-year Computer Science student at the Royal University of Phnom Penh with focus on</span> Web Development.</p>
           <button className={styles.btnDownloadcv}><a href={mycv} download="Resume" style={{color: 'white', textDecoration: 'none'}}>Download CV</a></button>
         </div>

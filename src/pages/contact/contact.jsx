@@ -26,10 +26,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_5xvk7t7',    
-      'template_hgfk9wh',   
+      'service_jt268gq',    
+      'template_nwyq62l',   
       form.current,
-      'g3gMZuLpaJCyW5AAc'   
+      '01IVM2m5k5tU0RMYM'   
     )
     .then((result) => {
         alert('Message sent successfully!');
@@ -103,7 +103,7 @@ style={{
 
       <div className="col-12 d-flex justify-content-center align-items-center flex-column mt-3">
         <div className="d-flex gap-2">
-          <a href="https://github.com/seanghorchheat" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
+          <a href="https://github.com/seanghorchheat1222" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
             <i className="bi bi-github fs-1"></i>
           </a>
           <a href="https://t.me/chheatseanghor3333" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
